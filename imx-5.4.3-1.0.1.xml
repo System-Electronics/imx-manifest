@@ -12,7 +12,7 @@
   <remote fetch="https://github.com/meta-rust"  name="rust"/>
   <remote fetch="https://github.com/nxp-imx" name="nxp-imx"/>
 
-  <project remote="yocto" revision="0275e68b0576cdefc19718e4b1977044f9f43f48" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="ddb298ce894482467d82699d223c5555baad6591" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="0be39721cea6e04c589a419f4bb07fabd0da6704" name="meta-freescale" path="sources/meta-freescale"/>
 
   <project remote="oe" revision="aad5b3d070cd8c58828b0975cf861d8ebc90f460" name="meta-openembedded" path="sources/meta-openembedded"/>
