@@ -23,7 +23,7 @@
   <project name="meta-browser" path="sources/meta-browser" remote="OSSystems" revision="ee3be3b5986a4aa0e73df2204a625ae1fe5df37e"/>
   <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="711e593d5984aad3bf35c51b7ac4482982bc16c7"/>
 
-  <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="14f1a630a47375432f93c556927b879b51d84c4e"/>
+  <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="e56f52e4afdd043c003475fd671cf3f2f497f2e8"/>
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="dbcc686f52c3c84db8cb86aa8973a4e373651b98"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="ca27d12e4964d1336e662bcc60184bbff526c857"/>
 
