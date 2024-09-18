@@ -42,15 +42,15 @@
   <project path="device/nxp" name="android-imx_device_fsl" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" >
     <linkfile src="common/tools/imx-make.sh" dest="imx-make.sh" />
   </project>
-  <project path="vendor/nxp-opensource/imx" name="platform/hardware/imx" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
-  <project path="vendor/nxp-opensource/fsl_imx_demo" name="platform/packages/apps/fsl_imx_demo" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
-  <project path="hardware/nxp/libbt" name="platform/hardware/nxp/libbt" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
-  <project path="hardware/nxp/wlan" name="platform/hardware/nxp/wlan" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
+  <project path="vendor/nxp-opensource/imx" name="android-imx_platform_hardware_imx" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
+  <project path="vendor/nxp-opensource/fsl_imx_demo" name="android-imx_platform_packages_apps_fsl_imx_demo" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
+  <project path="hardware/nxp/libbt" name="android-imx_platform_hardware_nxp_libbt" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
+  <project path="hardware/nxp/wlan" name="android-imx_platform_hardware_nxp_wlan" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
 
 
   <!-- For imx changed aosp git. -->
-  <project path="system/bt" name="platform/system/bt" groups="pdk" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
-  <project path="device/generic/car" name="device/generic/car" groups="pdk" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
+  <project path="system/bt" name="aosp_platform_system_bt" groups="pdk" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
+  <project path="device/generic/car" name="aosp_device_generic_car" groups="pdk" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
   <project path="development" name="aosp_platform_development" groups="developers,pdk-cw-fs,pdk-fs" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0"/>
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0"/>
   <project path="bootable/recovery" name="aosp_platform_bootable_recovery" groups="pdk" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
