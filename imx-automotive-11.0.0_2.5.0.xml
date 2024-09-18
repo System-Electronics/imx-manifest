@@ -4,15 +4,11 @@
   <include name="aosp-automotive-11.0.0_2.5.0.xml"/>
 
   <remote  name="android-imx"
-           fetch="https://source.codeaurora.org/external/imx/aosp/"
-           review="" />
-
-  <remote  name="android-imx-orig"
-           fetch="https://source.codeaurora.org/external/imx/android-imx"
+           fetch="https://github.com/nxp-imx-android"
            review="" />
 
   <remote  name="imx-linux-sdk"
-           fetch="https://source.codeaurora.org/external/imx/"
+           fetch="https://github.com/nxp-imx"
            review="" />
 
   <remote  name="imx-proprietary"
@@ -42,14 +38,6 @@
   <project path="vendor/nxp-opensource/nxp-mwifiex" name="mwifiex" remote="imx-linux-sdk" revision="refs/tags/automotive-11.0.0_2.5.0" />
   <project path="vendor/nxp-opensource/verisilicon_sw_isp_vvcam" name="isp-vvcam" remote="imx-linux-sdk" revision="refs/tags/automotive-11.0.0_2.5.0" />
   <project path="vendor/nxp/vpu_wrapper" name="imx-vpuwrap" remote="imx-proprietary" revision="refs/tags/automotive-11.0.0_2.5.0" />
-
-  <project path="device/nxp" name="device/fsl" remote="android-imx-orig" revision="refs/tags/automotive-11.0.0_2.5.0" >
-    <linkfile src="common/tools/imx-make.sh" dest="imx-make.sh" />
-  </project>
-  <project path="vendor/nxp-opensource/imx" name="platform/hardware/imx" remote="android-imx-orig" revision="refs/tags/automotive-11.0.0_2.5.0" />
-  <project path="vendor/nxp-opensource/fsl_imx_demo" name="platform/packages/apps/fsl_imx_demo" remote="android-imx-orig" revision="refs/tags/automotive-11.0.0_2.5.0" />
-  <project path="hardware/nxp/libbt" name="platform/hardware/nxp/libbt" remote="android-imx-orig" revision="refs/tags/automotive-11.0.0_2.5.0" />
-  <project path="hardware/nxp/wlan" name="platform/hardware/nxp/wlan" remote="android-imx-orig" revision="refs/tags/automotive-11.0.0_2.5.0" />
 
 
   <!-- For imx changed aosp git. -->
