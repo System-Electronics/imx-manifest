@@ -52,7 +52,7 @@
   <project path="system/bt" name="aosp_platform_system_bt" groups="pdk" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
   <project path="device/generic/car" name="aosp_device_generic_car" groups="pdk" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
   <project path="development" name="aosp_platform_development" groups="developers,pdk-cw-fs,pdk-fs" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0"/>
-  <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0"/>
+  <project path="system/hardware/interfaces" name="aosp_platform_system_hardware_interfaces" groups="pdk" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0"/>
   <project path="bootable/recovery" name="aosp_platform_bootable_recovery" groups="pdk" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
   <project path="frameworks/base" name="aosp_platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
   <project path="frameworks/av" name="aosp_platform_frameworks_av" groups="pdk" remote="imx-android" revision="refs/tags/automotive-11.0.0_2.5.0" />
