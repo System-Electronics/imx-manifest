@@ -17,7 +17,7 @@
     <linkfile dest="README" src="README"/>
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
-  <project name="meta-browser" path="sources/meta-browser" remote="OSSystems" revision="c512ef2c1a7dcf0df41253499bc6618b2c816507" upstream="kirkstone"/>
+  <project name="meta-browser" path="sources/meta-browser" remote="OSSystems" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6"/>
   <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="8bc893d735e5f779a2dcdc3992621d5ab371800d" upstream="kirkstone"/>
   <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="c525e0c19bdc46d45f71873b5f286f49abb69418" upstream="kirkstone"/>
   <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="9e94b64bdfebcf7bfdf2af6447cec866a4efa814" upstream="kirkstone"/>
