@@ -17,10 +17,10 @@
     <linkfile dest="README" src="README"/>
     <linkfile dest="setup-environment" src="setup-environment"/>
   </project>
-  <project name="meta-browser" path="sources/meta-browser" remote="OSSystems" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6"/>
-  <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="c728c3f9168c8a4ed05163a51dd48ca1ad8ac21d" upstream="kirkstone"/>
-  <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="c82d4634e7aba8bc0de73ce1dfc997b630051571" upstream="kirkstone"/>
-  <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="5977197340c7a7db17fe3e02a4e014ad997565ae" upstream="kirkstone"/>
+  <project name="meta-browser" path="sources/meta-browser" remote="OSSystems" revision="c512ef2c1a7dcf0df41253499bc6618b2c816507" upstream="kirkstone"/>
+  <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="8bc893d735e5f779a2dcdc3992621d5ab371800d" upstream="kirkstone"/>
+  <project name="meta-freescale" path="sources/meta-freescale" remote="community" revision="c525e0c19bdc46d45f71873b5f286f49abb69418" upstream="kirkstone"/>
+  <project name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty" remote="community" revision="9e94b64bdfebcf7bfdf2af6447cec866a4efa814" upstream="kirkstone"/>
   <project name="meta-freescale-distro" path="sources/meta-freescale-distro" remote="community" revision="d5bbb487b2816dfc74984a78b67f7361ce404253" upstream="kirkstone"/>
 
   <project name="meta-imx" path="sources/meta-imx" remote="nxp-imx" revision="refs/tags/rel_imx_5.15.71_2.2.0" upstream="kirkstone-5.15.71-2.2.0">
@@ -29,9 +29,9 @@
   </project>
 
   <project name="meta-nxp-demo-experience" path="sources/meta-nxp-demo-experience" remote="imx-support" revision="52eaf8bf42f8eda2917a1c8c046003c8c2c8f629" upstream="kirkstone-5.15.71-2.2.0"/>
-  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="744a4b6eda88b9a9ca1cf0df6e18be384d9054e3" upstream="kirkstone"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="4ad41baed6236d499804cbfc4f174042d84fce97" upstream="kirkstone"/>
   <project name="meta-qt6" path="sources/meta-qt6" remote="QT6" revision="ed785a25d12e365d1054700d4fc94a053176eb14" upstream="6.3"/>
-  <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="d1ad27bfacc937048e7f9084b17f4d7c917d2004" upstream="master"/>
-  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="9482648daf0bb42ff3475e7892542cf99f3b8d48" upstream="master"/>
-  <project name="poky" path="sources/poky" remote="yocto" revision="24a3f7b3648185e33133f5d96b184a6cb6524f3d" upstream="kirkstone"/>
+  <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="4d2a0309ba6b78d4ad877cf53670de87db7d5fb9" upstream="master"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="1665d1e2ad2244171dcdb580df4f54739d6444bd" upstream="master"/>
+  <project name="poky" path="sources/poky" remote="yocto" revision="	7e87dc422d972e0dc98372318fcdc63a76347d16" upstream="kirkstone"/>
 </manifest>
