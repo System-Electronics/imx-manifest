@@ -32,6 +32,6 @@
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="4ad41baed6236d499804cbfc4f174042d84fce97" upstream="kirkstone"/>
   <project name="meta-qt6" path="sources/meta-qt6" remote="QT6" revision="ed785a25d12e365d1054700d4fc94a053176eb14" upstream="6.3"/>
   <project name="meta-timesys" path="sources/meta-timesys" remote="Timesys" revision="4d2a0309ba6b78d4ad877cf53670de87db7d5fb9" upstream="master"/>
-  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="1665d1e2ad2244171dcdb580df4f54739d6444bd" upstream="master"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="02a6c00d9370992a54296633de26a13a9a08ca2a" upstream="kirkstone"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="7e87dc422d972e0dc98372318fcdc63a76347d16" upstream="kirkstone"/>
 </manifest>
